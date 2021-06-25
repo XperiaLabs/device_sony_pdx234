@@ -129,6 +129,7 @@ persist.vendor.qcom.bluetooth.aptxadaptiver2_2_support=true
 ro.bluetooth.a2dp_offload.supported=true
 ro.vendor.bt.bdaddr_path=/data/vendor/etc/bluetooth_bdaddr
 persist.vendor.bt.a2dp.hal.implementation=true
+persist.vendor.btstack.enable.twsplus=true
 
 # Camera
 vendor.camera.enable.uvc=true
