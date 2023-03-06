@@ -1872,7 +1872,7 @@ system_ext/etc/permissions/qcrilhook.xml
 system_ext/etc/permissions/qti_libpermissions.xml
 system_ext/etc/permissions/qti_permissions.xml
 system_ext/framework/qcrilhook.jar
-system_ext/framework/qti-telephony-common.jar|7aaeaf9208b8bad3ea187e87c746f7b982374ff5
+system_ext/framework/qti-telephony-common.jar|758446d279efedc959808a3b27e66941ce1005f5
 system_ext/priv-app/qcrilmsgtunnel/qcrilmsgtunnel.apk
 vendor/bin/hw/qcrilNrd
 vendor/bin/ks
