@@ -19,34 +19,18 @@ on post-fs
     setprop persist.radio.multisim.config ${vendor.radio.multisim.config}
     setprop ro.vendor.ltalabel.model ${vendor.radio.ltalabel.model}
 
-on property:ro.vendor.ltalabel.model=XQ-BC72
-    setprop ro.vendor.product.rf.id PDX234-C2
-
-on property:ro.vendor.ltalabel.model=XQ-BC62
-    setprop ro.vendor.product.rf.id PDX234-A2US
-
-on property:ro.vendor.ltalabel.model=XQ-BC52
-    setprop ro.vendor.product.rf.id PDX234-A2
-
-on property:ro.vendor.ltalabel.model=XQ-BC42
-    setprop ro.vendor.product.rf.id PDX234-J2
-    setprop persist.vendor.nfc.config_file_name "libnfc-nxp-typef.conf"
-
-on property:ro.vendor.ltalabel.model=XQ-BQ72
-    setprop ro.vendor.product.rf.id PDX214-C2
-
-on property:ro.vendor.ltalabel.model=XQ-BQ62
-    setprop ro.vendor.product.rf.id PDX214-A2US
-
-on property:ro.vendor.ltalabel.model=XQ-BQ52
-    setprop ro.vendor.product.rf.id PDX214-A2
-
-on property:ro.vendor.ltalabel.model=XQ-BQ42
-    setprop ro.vendor.product.rf.id PDX214-J2
-    setprop persist.vendor.nfc.config_file_name "libnfc-nxp-typef.conf"
-
 on property:ro.vendor.ltalabel.model=XQ-DQ72
     setprop ro.vendor.product.rf.id pdx234-C2
+
+on property:ro.vendor.ltalabel.model=XQ-DQ62
+    setprop ro.vendor.product.rf.id pdx234-A2US
+
+on property:ro.vendor.ltalabel.model=XQ-DQ52
+    setprop ro.vendor.product.rf.id pdx234-A2
+
+on property:ro.vendor.ltalabel.model=XQ-DQ42
+    setprop ro.vendor.product.rf.id pdx234-J2
+    setprop persist.vendor.nfc.config_file_name "libnfc-nxp-typef.conf"
 
 # USB config, refer to init.sony.usb.rc
 on property:sys.usb.config=adb && property:sys.usb.configfs=1
