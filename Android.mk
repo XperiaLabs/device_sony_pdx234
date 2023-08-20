@@ -6,8 +6,9 @@
 
 LOCAL_PATH := $(call my-dir)
 
-ifneq ($(filter pdx214 pdx234,$(TARGET_DEVICE)),)
-include $(call all-makefiles-under,$(LOCAL_PATH))
+ifneq ($(filter pdx234,$(TARGET_DEVICE)),)
+  subdir_makefiles=$(call first-makefiles-under,$(LOCAL_PATH))
+  $(foreach mk,$(subdir_makefiles),$(info including $(mk) ...)$(eval include $(mk)))
 
 include $(CLEAR_VARS)
 

@@ -1,6 +1,6 @@
-# Stock package version: XQ-BC72_Customized HK_61.2.A.0.447
+# Stock package version: XQ-DQ72_Customized HK_67.0.A.4.51
 
-# ACDBs
+# ACDB
 vendor/etc/acdbdata/ffv_models/ffv__5.0.1_0.1__3.0.0_0.0__eai_2.10_enpu3.pmd
 vendor/etc/acdbdata/ffv_models/ffv__5.0.1_0.1__eai_2.10_enpu3.pmd
 vendor/etc/acdbdata/IDP_UPD/IDP_UPD_acdb_cal.acdb
@@ -217,6 +217,32 @@ vendor/lib64/libagmmixer.so
 vendor/lib64/soundfx/libasphere.so
 vendor/lib64/soundfx/libquasar.so
 vendor/lib64/soundfx/libshoebox.so
+
+# Audio FX Modules (PDX234)
+vendor/etc/zoom_noise_reduction/znr_default_44k.tbl
+vendor/etc/zoom_noise_reduction/znr_default_48k.tbl
+vendor/etc/zoom_noise_reduction/znr_Front_44k.tbl
+vendor/etc/zoom_noise_reduction/znr_Front_48k.tbl
+vendor/etc/zoom_noise_reduction/znr_Front_mono_44k.tbl
+vendor/etc/zoom_noise_reduction/znr_Front_mono_48k.tbl
+vendor/etc/zoom_noise_reduction/znr_Logical_44k.tbl
+vendor/etc/zoom_noise_reduction/znr_Logical_48k.tbl
+vendor/etc/zoom_noise_reduction/znr_Logical_mono_44k.tbl
+vendor/etc/zoom_noise_reduction/znr_Logical_mono_48k.tbl
+vendor/etc/zoom_noise_reduction/znr_parameter_back.xml
+vendor/etc/zoom_noise_reduction/znr_parameter.xml
+vendor/etc/zoom_noise_reduction/znr_P_Tele_44k.tbl
+vendor/etc/zoom_noise_reduction/znr_P_Tele_48k.tbl
+vendor/etc/zoom_noise_reduction/znr_P_Tele_mono_44k.tbl
+vendor/etc/zoom_noise_reduction/znr_P_Tele_mono_48k.tbl
+vendor/etc/zoom_noise_reduction/znr_P_UWide_44k.tbl
+vendor/etc/zoom_noise_reduction/znr_P_UWide_48k.tbl
+vendor/etc/zoom_noise_reduction/znr_P_UWide_mono_44k.tbl
+vendor/etc/zoom_noise_reduction/znr_P_UWide_mono_48k.tbl
+vendor/etc/zoom_noise_reduction/znr_P_Wide_44k.tbl
+vendor/etc/zoom_noise_reduction/znr_P_Wide_48k.tbl
+vendor/etc/zoom_noise_reduction/znr_P_Wide_mono_44k.tbl
+vendor/etc/zoom_noise_reduction/znr_P_Wide_mono_48k.tbl
 
 # Bluetooth
 vendor/bin/hw/android.hardware.bluetooth@1.1-service-qti
@@ -729,6 +755,199 @@ vendor/lib64/vendor.qti.hardware.camera.postproc@1.0-service-impl.so
 vendor/lib64/vendor.semc.hardware.extlight-V1-ndk_platform.so
 vendor/lib64/vendor.somc.camera.device-impl.so
 
+# Camera (PDX234)
+vendor/camera/CAMINO_FW_DATA_AF_0x0104.dat
+vendor/camera/CAMINO_FW_DATA_OIS_0x0106.dat
+vendor/camera/CAMINO_FW_DATA_OIS_KAI_0x0102.dat
+vendor/camera/CAMINO_FW_DATA_OIS_KAI_0x0104.dat
+vendor/camera/default.dat
+vendor/camera/depth.dat
+vendor/camera/display_ctrl.dat
+vendor/camera/file_animal_eye_detector.dat
+vendor/camera/file_autoexposure.dat
+vendor/camera/file_autowhitebalance_00.dat
+vendor/camera/file_face_detector.dat
+vendor/camera/file_object_detector.dat
+vendor/camera/file_recognize_map_comp.dat
+vendor/camera/file_zunda_00.dat
+vendor/camera/file_zunda_01.dat
+vendor/camera/file_zunda_02.dat
+vendor/camera/file_zunda_03.dat
+vendor/camera/file_zunda_04.dat
+vendor/camera/file_zunda_05.dat
+vendor/camera/file_zunda_06.dat
+vendor/camera/file_zunda_07.dat
+vendor/camera/file_zunda_08.dat
+vendor/camera/file_zunda_09.dat
+vendor/camera/file_zunda_10.dat
+vendor/camera/file_zunda_11.dat
+vendor/camera/file_zunda_12.dat
+vendor/camera/file_zunda_13.dat
+vendor/camera/file_zunda_14.dat
+vendor/camera/file_zunda_15.dat
+vendor/camera/file_zunda_16.dat
+vendor/camera/file_zunda_17.dat
+vendor/camera/file_zunda_18.dat
+vendor/camera/file_zunda_19.dat
+vendor/camera/file_zunda_20.dat
+vendor/camera/file_zunda_21.dat
+vendor/camera/file_zunda_22.dat
+vendor/camera/file_zunda_23.dat
+vendor/camera/flash.dat
+vendor/camera/LGI12BC0/color_ctrl.dat
+vendor/camera/LGI12BC0/dataflow.dat
+vendor/camera/LGI12BC0/draw_comp_histogram.dat
+vendor/camera/LGI12BC0/draw_comp_pocky.dat
+vendor/camera/LGI12BC0/dual_bokeh_comp.dat
+vendor/camera/LGI12BC0/exposure_ctrl.dat
+vendor/camera/LGI12BC0/exposure_ctrl_diagram.dat
+vendor/camera/LGI12BC0/eye_stabilizer.dat
+vendor/camera/LGI12BC0/face_detector.dat
+vendor/camera/LGI12BC0/face_detector_soda.dat
+vendor/camera/LGI12BC0/flicker_detector.dat
+vendor/camera/LGI12BC0/food_comp_yummy.dat
+vendor/camera/LGI12BC0/hal_ctrl.dat
+vendor/camera/LGI12BC0/hal_ctrl_ife_lsc41.dat
+vendor/camera/LGI12BC0/hdr_comp.dat
+vendor/camera/LGI12BC0/idt_ctrl.dat
+vendor/camera/LGI12BC0/image_conv_cheesescone.dat
+vendor/camera/LGI12BC0/image_conv.dat
+vendor/camera/LGI12BC0/image_conv_marble.dat
+vendor/camera/LGI12BC0/image_conv_raisin.dat
+vendor/camera/LGI12BC0/image_conv_zunda.dat
+vendor/camera/LGI12BC0/lens_ctrl_common.dat
+vendor/camera/LGI12BC0/lens_ctrl.dat
+vendor/camera/LGI12BC0/motion_detector.dat
+vendor/camera/LGI12BC0/motion_detector_sumomo.dat
+vendor/camera/LGI12BC0/motion_estimation.dat
+vendor/camera/LGI12BC0/object_detector.dat
+vendor/camera/LGI12BC0/object_tracker.dat
+vendor/camera/LGI12BC0/prc_image_conv.dat
+vendor/camera/LGI12BC0/raw_conv_parisbrest.dat
+vendor/camera/LGI12BC0/raw_proc_platform.dat
+vendor/camera/LGI12BC0/recognize_map_comp.dat
+vendor/camera/LGI12BC0/scene_detector.dat
+vendor/camera/MAUNAKEA_FW_DATA_1_0x16903000.dat
+vendor/camera/MAUNAKEA_FW_DATA_1_0x16903010.dat
+vendor/camera/MAUNAKEA_FW_DATA_2_0x16903000.dat
+vendor/camera/MAUNAKEA_FW_DATA_2_0x16903010.dat
+vendor/camera/MAUNAKEA_FW_DATA_4_0x16903000.dat
+vendor/camera/MAUNAKEA_FW_DATA_4_0x16903010.dat
+vendor/camera/MAUNAKEA_FW_DATA_5_0x16903000.dat
+vendor/camera/MAUNAKEA_FW_DATA_5_0x16903010.dat
+vendor/camera/Morpho/CLBokeh/MorphoBokeh.bin.89ec02e
+vendor/camera/Morpho/CLBokeh/MorphoFormatUtil.bin.347db6fd
+vendor/camera/Morpho/Halide/halide_13831235
+vendor/camera/Morpho/Halide/halide_13849903
+vendor/camera/Morpho/Halide/halide_13896217
+vendor/camera/ois_correction_coefficient_imx650.dat
+vendor/camera/ois_correction_coefficient_imx888.dat
+vendor/camera/optical_axis.dat
+vendor/camera/SEM12BC9/color_ctrl.dat
+vendor/camera/SEM12BC9/dataflow.dat
+vendor/camera/SEM12BC9/draw_comp_histogram.dat
+vendor/camera/SEM12BC9/draw_comp_pocky.dat
+vendor/camera/SEM12BC9/dual_bokeh_comp.dat
+vendor/camera/SEM12BC9/exposure_ctrl.dat
+vendor/camera/SEM12BC9/exposure_ctrl_diagram.dat
+vendor/camera/SEM12BC9/eye_stabilizer.dat
+vendor/camera/SEM12BC9/face_detector.dat
+vendor/camera/SEM12BC9/face_detector_soda.dat
+vendor/camera/SEM12BC9/flicker_detector.dat
+vendor/camera/SEM12BC9/food_comp_yummy.dat
+vendor/camera/SEM12BC9/hal_ctrl.dat
+vendor/camera/SEM12BC9/hal_ctrl_ife_lsc41.dat
+vendor/camera/SEM12BC9/hdr_comp.dat
+vendor/camera/SEM12BC9/idt_ctrl.dat
+vendor/camera/SEM12BC9/image_conv_cheesescone.dat
+vendor/camera/SEM12BC9/image_conv.dat
+vendor/camera/SEM12BC9/image_conv_marble.dat
+vendor/camera/SEM12BC9/image_conv_raisin.dat
+vendor/camera/SEM12BC9/image_conv_zunda.dat
+vendor/camera/SEM12BC9/lens_ctrl_common.dat
+vendor/camera/SEM12BC9/lens_ctrl.dat
+vendor/camera/SEM12BC9/motion_detector.dat
+vendor/camera/SEM12BC9/motion_detector_sumomo.dat
+vendor/camera/SEM12BC9/motion_estimation.dat
+vendor/camera/SEM12BC9/object_detector.dat
+vendor/camera/SEM12BC9/object_tracker.dat
+vendor/camera/SEM12BC9/prc_image_conv.dat
+vendor/camera/SEM12BC9/raw_conv_parisbrest.dat
+vendor/camera/SEM12BC9/raw_proc_platform.dat
+vendor/camera/SEM12BC9/recognize_map_comp.dat
+vendor/camera/SEM12BC9/scene_detector.dat
+vendor/camera/SEM52BC0/color_ctrl.dat
+vendor/camera/SEM52BC0/dataflow.dat
+vendor/camera/SEM52BC0/draw_comp_histogram.dat
+vendor/camera/SEM52BC0/draw_comp_pocky.dat
+vendor/camera/SEM52BC0/dual_bokeh_comp.dat
+vendor/camera/SEM52BC0/exposure_ctrl.dat
+vendor/camera/SEM52BC0/exposure_ctrl_diagram.dat
+vendor/camera/SEM52BC0/eye_stabilizer.dat
+vendor/camera/SEM52BC0/face_detector.dat
+vendor/camera/SEM52BC0/face_detector_soda.dat
+vendor/camera/SEM52BC0/flicker_detector.dat
+vendor/camera/SEM52BC0/food_comp_yummy.dat
+vendor/camera/SEM52BC0/hal_ctrl.dat
+vendor/camera/SEM52BC0/hal_ctrl_ife_lsc41.dat
+vendor/camera/SEM52BC0/hdr_comp.dat
+vendor/camera/SEM52BC0/idt_ctrl.dat
+vendor/camera/SEM52BC0/image_conv_cheesescone.dat
+vendor/camera/SEM52BC0/image_conv.dat
+vendor/camera/SEM52BC0/image_conv_marble.dat
+vendor/camera/SEM52BC0/image_conv_raisin.dat
+vendor/camera/SEM52BC0/image_conv_zunda.dat
+vendor/camera/SEM52BC0/lens_ctrl_common.dat
+vendor/camera/SEM52BC0/lens_ctrl.dat
+vendor/camera/SEM52BC0/motion_detector.dat
+vendor/camera/SEM52BC0/motion_detector_sumomo.dat
+vendor/camera/SEM52BC0/motion_estimation.dat
+vendor/camera/SEM52BC0/object_detector.dat
+vendor/camera/SEM52BC0/object_tracker.dat
+vendor/camera/SEM52BC0/prc_image_conv.dat
+vendor/camera/SEM52BC0/raw_conv_parisbrest.dat
+vendor/camera/SEM52BC0/raw_proc_platform.dat
+vendor/camera/SEM52BC0/recognize_map_comp.dat
+vendor/camera/SEM52BC0/scene_detector.dat
+vendor/camera/snapshot.dat
+vendor/camera/SODA_HMN_BN0010-0001
+vendor/camera/streaming.dat
+vendor/camera/SUN12BS0/color_ctrl.dat
+vendor/camera/SUN12BS0/dataflow.dat
+vendor/camera/SUN12BS0/draw_comp_histogram.dat
+vendor/camera/SUN12BS0/draw_comp_pocky.dat
+vendor/camera/SUN12BS0/dual_bokeh_comp.dat
+vendor/camera/SUN12BS0/exposure_ctrl.dat
+vendor/camera/SUN12BS0/exposure_ctrl_diagram.dat
+vendor/camera/SUN12BS0/eye_stabilizer.dat
+vendor/camera/SUN12BS0/face_detector.dat
+vendor/camera/SUN12BS0/face_detector_soda.dat
+vendor/camera/SUN12BS0/flicker_detector.dat
+vendor/camera/SUN12BS0/food_comp_yummy.dat
+vendor/camera/SUN12BS0/hal_ctrl.dat
+vendor/camera/SUN12BS0/hal_ctrl_ife_lsc41.dat
+vendor/camera/SUN12BS0/hdr_comp.dat
+vendor/camera/SUN12BS0/idt_ctrl.dat
+vendor/camera/SUN12BS0/image_conv_cheesescone.dat
+vendor/camera/SUN12BS0/image_conv.dat
+vendor/camera/SUN12BS0/image_conv_marble.dat
+vendor/camera/SUN12BS0/image_conv_raisin.dat
+vendor/camera/SUN12BS0/image_conv_zunda.dat
+vendor/camera/SUN12BS0/lens_ctrl_common.dat
+vendor/camera/SUN12BS0/lens_ctrl.dat
+vendor/camera/SUN12BS0/motion_detector.dat
+vendor/camera/SUN12BS0/motion_detector_sumomo.dat
+vendor/camera/SUN12BS0/motion_estimation.dat
+vendor/camera/SUN12BS0/object_detector.dat
+vendor/camera/SUN12BS0/object_tracker.dat
+vendor/camera/SUN12BS0/prc_image_conv.dat
+vendor/camera/SUN12BS0/raw_conv_parisbrest.dat
+vendor/camera/SUN12BS0/raw_proc_platform.dat
+vendor/camera/SUN12BS0/recognize_map_comp.dat
+vendor/camera/SUN12BS0/scene_detector.dat
+vendor/camera/supported.dat
+vendor/camera/version.dat
+
 # Camera firmware
 vendor/firmware/CAMERA_ICP_170.elf
 vendor/firmware/CAMERA_ICP.b00
@@ -875,6 +1094,9 @@ vendor/lib64/libgrallocutils.so
 # Display (HDR)
 vendor/lib64/libhdr_tm.so
 
+# Display (HDR, PDX234)
+vendor/etc/libhdr_somc.xml
+
 # Display (HWC)
 vendor/bin/hw/vendor.qti.hardware.display.composer-service
 vendor/bin/qdcmss
@@ -954,6 +1176,9 @@ vendor/etc/display/qdcm_calib_data_vtdr6130_amoled_cmd_mode_dsi_visionox_panel_w
 vendor/etc/display/qdcm_calib_data_vtdr6130_amoled_qsync_cmd_mode_dsi_visionox_panel_with_DSC.json
 vendor/etc/display/qdcm_calib_data_vtdr6130_amoled_qsync_video_mode_dsi_visionox_panel_with_DSC.json
 vendor/etc/display/qdcm_calib_data_vtdr6130_amoled_video_mode_dsi_visionox_panel_with_DSC.json
+
+# Display calibration data (PDX234)
+vendor/etc/display/qdcm_calib_data_1.json
 
 # Display postprocessing
 vendor/bin/hw/vendor.display.color@1.0-service
@@ -2004,6 +2229,9 @@ vendor/etc/init/init.time_daemon.rc
 vendor/lib/libtime_genoff.so
 vendor/lib64/libtime_genoff.so
 
+# Touchscreen firmware
+vendor/firmware/touch_module_id_0x01.img
+
 # Trimarea
 vendor/lib64/libintegration.so
 vendor/lib64/libtpm.so
@@ -2173,6 +2401,15 @@ vendor/lib64/liboemcrypto.so
 vendor/lib64/libtrustedapploader.so
 vendor/lib64/libwvaidl.so
 
+# WiFi Firmware (PDX234)
+vendor/etc/wifi/wifi_txpower.conf
+vendor/etc/wifi/wpa_supplicant.conf
+vendor/etc/wifi/regdb.bin
+vendor/etc/wifi/bdwlan.e17
+vendor/etc/wifi/bdwlan.e30
+vendor/etc/wifi/bdwlan.e31
+
+
 # Other
 vendor/etc/disp_color_conf.xml
 vendor/etc/disp_panel_conf.xml
@@ -2206,3 +2443,21 @@ vendor/lib64/vendor.somc.hardware.aidlradio-V1-ndk.so
 vendor/lib64/vendor.somc.hardware.videoeffect-V1-ndk_platform.so
 vendor/lib64/libSnpeHtpV73Stub.so
 vendor/lib64/libQnnHtp.so
+
+# Other (Cirrus, PDX234)
+vendor/firmware/cs40l20.bin
+vendor/firmware/cs40l25a_a2h1.bin
+vendor/firmware/cs40l25a_a2h2.bin
+vendor/firmware/cs40l25a_a2h3.bin
+vendor/firmware/cs40l25a_a2h.bin
+vendor/firmware/cs40l25a_a2h.wmfw
+vendor/firmware/cs40l25a_cal.bin
+vendor/firmware/cs40l25a_cal.wmfw
+vendor/firmware/L-cs35l45-dsp1-spk-cali.bin
+vendor/firmware/L-cs35l45-dsp1-spk-cali.wmfw
+vendor/firmware/L-cs35l45-dsp1-spk-prot.bin
+vendor/firmware/L-cs35l45-dsp1-spk-prot.wmfw
+vendor/firmware/R-cs35l45-dsp1-spk-cali.bin
+vendor/firmware/R-cs35l45-dsp1-spk-cali.wmfw
+vendor/firmware/R-cs35l45-dsp1-spk-prot.bin
+vendor/firmware/R-cs35l45-dsp1-spk-prot.wmfw
