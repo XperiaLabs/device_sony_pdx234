@@ -985,6 +985,8 @@ vendor/firmware/CAMERA_ICP.mdt
 
 # Charger
 vendor/etc/charger_fw_fstab.qti
+vendor/bin/hw/vendor.semc.hardware.charger@1.1-service
+vendor/etc/init/vendor.semc.hardware.charger@1.1-service.rc
 
 # Configstore
 vendor/bin/hw/vendor.qti.hardware.capabilityconfigstore@1.0-service
