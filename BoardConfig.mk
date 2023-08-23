@@ -316,6 +316,7 @@ VENDOR_SECURITY_PATCH := $(BOOT_SECURITY_PATCH)
 
 # SePolicy
 include device/qcom/sepolicy_vndr/SEPolicy.mk
+include hardware/sony/sepolicy/qti/SEPolicy.mk
 PRODUCT_PUBLIC_SEPOLICY_DIRS += $(COMMON_PATH)/sepolicy/public
 PRODUCT_PRIVATE_SEPOLICY_DIRS += $(COMMON_PATH)/sepolicy/private
 BOARD_VENDOR_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy/vendor
