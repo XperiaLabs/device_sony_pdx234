@@ -242,6 +242,10 @@ DEVICE_MANIFEST_FILE += \
     $(DEVICE_PATH)/configs/vintf/manifest.xml \
     $(DEVICE_PATH)/configs/vintf/network_manifest.xml
 
+# Lineage Touch HAL
+$(call soong_config_set,sony_touch,board,yodo)
+$(call soong_config_set,sony_touch,touch_ctrl_path,/sys/devices/virtual/input/lxs_ts_input)
+
 # Metadata
 BOARD_USES_METADATA_PARTITION := true
 
