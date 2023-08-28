@@ -410,11 +410,11 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/nfc/unavail.android.software.nfc.beam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/unavail.android.software.nfc.beam.xml
 
 PRODUCT_PACKAGES += \
-    android.hardware.nfc_snxxx@1.2-service \
+    android.hardware.nfc@1.2.vendor \
     android.hardware.secure_element@1.2.vendor \
     com.android.nfc_extras \
     Tag \
-    NfcNci
+    nqnfcinfo
 
 # OMX
 PRODUCT_PACKAGES += \
